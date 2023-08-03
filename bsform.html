@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="./node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-8 mx-auto">
+          <div class="border rounded mt-3 p-3">
+            <form action="">
+              <h3>User Register</h3>
+
+              <hr />
+
+              <div class="form-floating">
+                <input type="text" class="form-control" id="aa" placeholder=""/>
+                <label for="aa">Your Name</label>
+              </div>
+
+              <div class="mb-3">
+                <label for="name" class="form-label">Your Name</label>
+                <input type="text" class="form-control" id="name" />
+              </div>
+
+              <div class="mb-3">
+                <label for="email" class="form-label">Your Email</label>
+                <input type="text" class="form-control" id="email" />
+              </div>
+
+              <div class="row">
+                <div class="col-4">
+                  <div class="mb-3">
+                    <label for="password" class="form-label">Password</label>
+                    <input type="password" class="form-control" id="password" />
+                  </div>
+                </div>
+                <div class="col-8">
+                  <div class="mb-3">
+                    <label for="cp" class="form-label">Confirm Password</label>
+                    <input type="password" class="form-control" id="cp" />
+                  </div>
+                </div>
+              </div>
+
+              <div class="mb-3">
+                <label for="rate" class="form-label">Rate</label>
+                <input type="range" class="form-control" id="rate" />
+              </div>
+
+
+              <div class="row mb-3">
+                <div class="col-8">
+                  <label for="salary" class="form-label">Salary</label>
+                  <input type="text" class="form-control" id="salary">
+                </div>
+                <div class="col-4">
+                  <label for="currency" class="form-label">Currency</label>
+                  <select name="" id="currency" class="form-select">
+                    <option value="usd">USD</option>
+                    <option value="sgd">SGD</option>
+                    <option value="eur">EUR</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="mb-3">
+                <!-- <label for="">Select Your Skill</label> -->
+                <span class="d-block">Select Your Skill</span>
+                <div class="form-check form-check-inline" id="ckeckbox">
+                  <input type="checkbox" class="form-check-input" id="html">
+                  <label for="html" class="form-check-label">HTML</label>
+                </div>
+                <div class="form-check form-check-inline" id="ckeckbox">
+                  <input type="checkbox" class="form-check-input" id="css">
+                  <label for="css" class="form-check-label">CSS3</label>
+                </div>
+                <div class="form-check form-check-inline" id="ckeckbox">
+                  <input type="checkbox" class="form-check-input" id="js">
+                  <label for="js" class="form-check-label">JS</label>
+                </div>
+              </div>
+
+              <div class="mb-3">
+                <label for="address" class="form-label">Address</label>
+                <textarea name="" id="address" rows="5" class="form-control"></textarea>
+              </div>
+
+              <hr>
+              <button class="btn btn-primary">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
